@@ -1,0 +1,147 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap');
+
+body {
+    background-color: aliceblue;
+    margin: 0;
+    padding: 0;
+    padding-bottom: 180px;
+}
+
+header {
+    background-color: #660b16;
+    padding: 25px 40px;
+    justify-content: space-between;
+    display: flex;
+    align-items: center;
+    font-family: Raleway, sans-serif;
+    position: relative;
+    overflow: hidden;
+    font-weight: bold;
+}
+
+a.active {
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+    font-size: 18px;
+}
+
+a.active:hover {
+    text-decoration: underline;
+}
+
+img.logo {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    max-width: 80px;
+}
+
+p.est {
+    color: white;
+    font-size: 14px;
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+footer {
+    background-color: #660b16;
+    color: white;
+    font-family: Raleway, sans-serif;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    padding: 30px 40px 15px;
+    box-sizing: border-box;
+}
+
+footer .info {
+    display: flex;
+    justify-content: flex-end;
+    gap: 40px;
+    margin-bottom: 10px;
+}
+
+.inffooter li {
+    margin-bottom: 10px;
+    font-size: 14px;
+}
+
+.inffooter li:hover {
+    text-decoration: underline;
+    color: #e7e7e7;
+    cursor: pointer;
+}
+
+footer ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.midias {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    padding: 0;
+    margin: 0;
+}
+
+.midias a:hover {
+    opacity: 0.8;
+}
+
+.logo-footer {
+    max-width: 50px;
+}
+
+.mother-logo-footer {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.polity-footer {
+    display: flex;
+    align-items: center;
+    font-size: 14px;
+    gap: 10px;
+}
+
+.polity-footer a {
+    color: white;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+.polity-footer a:hover {
+    text-decoration: underline;
+}
+
+.copyright-footer {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    font-size: 14px;
+}
+
+.copyright-footer:hover {
+    cursor: default;
+}
+
+.rodapé {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    color: white;
+    font-size: 14px;
+}
+
+.polity a {
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+    font-size: 14px;
+}
